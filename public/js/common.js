@@ -182,7 +182,6 @@ function outputPosts(results, container) {
         results = [results];
     }
 
-
     results.forEach(result => {
         let html = createPostHtml(result);
         container.append(html)

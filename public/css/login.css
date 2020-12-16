@@ -1,19 +1,17 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .loginContainer {
     padding: 20px;
     width: 80%;
     max-width: 500px;
-    border: 1px solid #dedede;
-    background-color: #fff;
+    border: 1px solid white;
+    background-color: white;
     text-align: center;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 form {
@@ -24,16 +22,16 @@ form {
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    margin-bottom: 20px;
-    padding: 5px 10px;
-    border-radius: 2px;
-    border: 1px solid #dedede;
-    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    padding: 7px 11px;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: white;
 }
 
 input[type="submit"] {
-    background-color: #0099ff;
-    color: #fff;
+    background-color: cornflowerblue;
+    color: white;
     border: none;
     border-radius: 2px;
     margin-bottom: 10px;
