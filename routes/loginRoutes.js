@@ -26,7 +26,7 @@ router.post("/", async (req, res, next) => {
         let user = await User.findOne({
             $or: [
                 {username: req.body.logUsername},
-                {email: req.body.logUsername}
+                {email: req.body.logUsername},
             ]
         })
             .catch((error) => {
